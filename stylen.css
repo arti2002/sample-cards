@@ -100,5 +100,16 @@
     visibility: visible;
     transition: opacity 1s 1s;
   }
+.card-img {
+	width: 420px!important;
+	height: 300px!important;
+}
+
+@media (max-width: 768px) {
+	.card-img {
+		width: 90vw!important;
+		margin: 5px;
+	}
+}
 
   
